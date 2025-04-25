@@ -133,6 +133,18 @@ padding: 21px;
   margin-top: 0px;
  
 }
+#expriance-badge{
+padding: 45px 42px;
+font-size: 1.5rem;
+font-weight: 500;
+margin-left: -100px;
+margin-top: -100px;
+}
+#expriance-year{
+
+  font-size: 4rem;
+  font-weight: 700;
+}
 /* some facts releted style */
 .facts-container{
   display: grid;
@@ -153,6 +165,9 @@ grid-template-columns: repeat(4, 1fr);
   margin-top: 5px;
   margin-bottom: 10px;
 
+}
+.feature-architect img{
+width: 100%;
 }
 /* sponspore releted */
 .sponspore-info{
@@ -180,7 +195,9 @@ grid-template-columns: repeat(4, 1fr);
 @media screen and (max-width: 576px) {
   .navber, 
   .nav-link,
-  .teams{
+  .teams,
+  .features 
+  {
     flex-direction: column;
 
   }
@@ -200,6 +217,10 @@ grid-template-columns: repeat(4, 1fr);
   .our-feature{
     margin-left: 20px;
   }
+  #expriance-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 
   
 }
@@ -208,7 +229,7 @@ grid-template-columns: repeat(4, 1fr);
   flex-direction: column;
 
 }
-.our-feature{
+.our-feature, .features{
   margin-left: 50px auto;
 }
   
